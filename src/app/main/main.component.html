@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="container-header">
+    <b>Available temple's</b>
+  </div>
+
+  <!-- cards row starts here -->
+  <div class="row cells" *ngFor="let item of temples">
+    <div class="col-md-12 data">
+      <h6>{{item.name}}</h6>
+      <p>{{item.description}}</p>
+    </div>
+  </div>
+
+</div>
